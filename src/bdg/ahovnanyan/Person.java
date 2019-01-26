@@ -1,4 +1,4 @@
-package bdg.warustamyan;
+package bdg.ahovnanyan;
 
 
 public class Person {

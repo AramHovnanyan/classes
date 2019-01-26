@@ -1,4 +1,5 @@
-package bdgosahakyan.lesson_10;
+package bdg.ahovnanyan;
+
 
 public class Address {
     private String street;
@@ -16,6 +17,7 @@ public class Address {
     public String getStreet() {
         return street;
     }
+
     public void setStreet(final String street) {
         this.street = street;
     }
@@ -23,6 +25,7 @@ public class Address {
     public String getCity() {
         return city;
     }
+
     public void setCity(final String city) {
         this.city = city;
     }
@@ -30,6 +33,7 @@ public class Address {
     public String getState() {
         return state;
     }
+
     public void setState(final String state) {
         this.state = state;
     }
@@ -37,15 +41,8 @@ public class Address {
     public String getZipCode() {
         return zipCode;
     }
+
     public void setZipCode(final String zipCode) {
         this.zipCode = zipCode;
     }
-
-    @Override
-    public String toString() {
-        return "Address(" + getStreet() + "," + getCity() + "," + getState() + "," + getZipCode() + ")";
-    }
-
 }
-
-
